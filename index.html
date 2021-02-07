@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+	<h1 class="mainTitle">Simple Calculator</h1>
+	<div class="mainBox1">
+        <form action="" class="alignForm">Enter a Value:
+            <input id="number1" type="text" placeholder="Number">
+        </form>
+        <form action="" class="alignForm2">Enter a Value:
+            <input id="number2" type="text" placeholder="Number">
+        </form><BR><BR><BR>
+        <button class="buttonStyle" id="add">+ Add</button>
+        <button class="buttonStyle" id="subtract">- Subtract</button>
+        <button class="buttonStyle" id="multiply">* Multiply</button>
+		<button class="buttonStyle" id="divide">/ Divide</button>
+		<button class="buttonStyle" id="modulo">% Modulo</button>
+	</div>
+	<div class="mainBox2">
+		<h2 class="thisIsYourTitle">Results</h2>
+		<div class="aroundTheMessage2">
+            <h2 id="calculationOutput" class="calcDisplay"></h2>
+		</div>
+
+	</div>
+	<script src="calc.js"></script>
+</body>
+</html>
